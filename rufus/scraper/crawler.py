@@ -19,7 +19,8 @@ class Crawler:
 
         try:
             response = self.session.get(url, headers=self.headers)
-            response.raise_for_status()
+            content_type = response.headers.get('Content-Type', '')
+            is_xml = 'xml' in content_type or url.endswith('.xml')
             html = response.text
         except requests.RequestException as e:
             print(f"Error fetching {url}: {e}")

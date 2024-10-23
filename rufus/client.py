@@ -14,7 +14,8 @@ class RufusClient:
         structured_data = []
 
         for page_url, html in raw_data.items():
-            parsed_data = self.parser.parse(html, instructions)
+            is_xml = page_url.endswith('.xml')
+            parsed_data = self.parser.parse(html, instructions, is_xml=is_xml)
             if parsed_data:
                 structured_data.append({
                     'url': page_url,

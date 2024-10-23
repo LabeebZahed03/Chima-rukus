@@ -1,0 +1,478 @@
+[
+    {
+        "url": "https://www.taniarascia.com",
+        "data": {
+            "relevant_content": [
+                "The Lore of Animorphs (an Ode) December 2022 Tending to My Digital Garden December 2022 Memories of Josh August 2022 Highlights November 17, 2021 An Introduction to GraphQL June 23, 2021 How to Structure and Organize a React Application October 15, 2020 How to Set Up webpack 5 From Scratch September 10, 2020 The Event Loop, Callbacks, Promises, and Async/Await in JavaScript March 09, 2020 How to Use Redux and React February 17, 2020 How to Set up a Mac for Development December 02, 2019 A Complete Guide to CSS Concepts and Fundamentals May 16, 2019 How to Use Vue, the JavaScript Framework February 11, 2019 Everything I Know as a Software Developer Without a Degree (2019)",
+                "August 20, 2018 How to Use React, the JavaScript Framework October 12, 2017 Design for Developers: Specific Steps to Improve Your Website Design January 09, 2017 How to Use the Command Line in Linux and macOS Projects All Projects 2022 Keyboard Accordion Play the accordion with your keyboard!"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/how-to-test-useeffect-api-call/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/digital-gardening/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/josh/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/me",
+        "data": {
+            "relevant_content": [
+                "DigitalOcean, 2021 How to Code in JavaScript (Tutorial Series, 32 articles) DigitalOcean, 2017 - 2020 Understanding the DOM — Document Object Model (Tutorial Series, 8 articles) DigitalOcean, 2017 - 2018 Setting up a RESTful API with Node.js and PostgreSQL LogRocket, 2018 An Introduction to CSS Shapes Tympanus Codrops, 2018 ES6 Syntax, Features and Additions: A Reference Guide Progress Telerik, 2018 REST API Tutorial (1): Understanding REST APIs Envato Tuts+, 2018 REST API Tutorial (2): Set Up a Node/Express Server Envato Tuts+, 2018 REST API Tutorial (3): Connect to a Postgres Database Envato Tuts+, 2018 A Beginner’s Guide to JavaScript Variables and Datatypes SitePoint, 2017 JavaScript Operators, Conditionals & Functions SitePoint, 2017 Books Understanding the DOM DigitalOcean, 2020 Interviews & Podcasts How to Organize your React App React Round Up, Jack Herrington, Paige Niedringhaus, TJ VanToll Switching Careers and Learning in Public Egghead.io Podcast, Joel Hooks Web Developer: Tania Rascia",
+                "You are techY Podcast, Ellen Twomey Interview Hashnode Townhall, Bolaji Ayodeji Speaking Getting Started with Vue Chicago JavaScript, 2019 Getting Started with React Chicago JavaScript, 2018 Developing a WordPress Theme from Scratch WordCamp Chicago, 2017 Songs Rain Let It Be I'd Like to Walk Around In Your Mind El Pasadiscos Such Great Hights (Duet) Night Nurse (Duet) Miscellaneous Resume Illustration Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/introduction-to-graphql/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/horizontal-scroll-fixed-headers-table/",
+        "data": {
+            "relevant_content": [
+                "Post Details Published: October 09, 2024 Category: Technical Tags html css design javascript tables Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/snake-game-in-javascript",
+        "data": {
+            "relevant_content": [
+                "Writing a Snake Game for the Terminal in JavaScript | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me Writing a Snake Game for the Terminal in JavaScript Usually when you think of a JavaScript game, you probably imagine something played in the browser, either rendered to the DOM or in an HTML5 canvas element.",
+                "The most popular one in the JavaScript environment is blessed .",
+                "If the snake eats the dot, it grows and the score goes up by one If the snake runs into the wall or itself, the game resets Object-Oriented I made extensive use of the ES6 JavaScript class keyword, and divided the game into two classes: Game , which would track the state of the snake, dot, and score UserInterface , which would handle all i/o, which means the key input, the screen, and rendering anything to the screen User Interface Blessed uses \"boxes\" to represent elements, so I had a gameBox to represent the entire game play area, scoreBox to represent a single line where the score would be set and updated, and gameOverBox to display a game over modal.",
+                "Post Details Published: April 09, 2019 Category: Technical Tags javascript cli node games Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/redux-react-guide/",
+        "data": {
+            "relevant_content": [
+                "Knowledge of React terminology: JSX, State, Components, Props, Lifecycle and Hooks Knowledge of React Router Knowledge of asynchronous JavaScript and making API calls Also, download Redux DevTools for Chrome or for FireFox .",
+                "Redux is a state container for JavaScript applications."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/projects",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/",
+        "data": {
+            "relevant_content": [
+                "The Event Loop, Callbacks, Promises, and Async/Await in JavaScript | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me The Event Loop, Callbacks, Promises, and Async/Await in JavaScript This article was originally written for DigitalOcean .",
+                "To handle these operations in JavaScript, a developer must use asynchronous programming techniques.",
+                "Since JavaScript is a single-threaded programming language with a synchronous execution model that proccesses one operation after another, it can only process one statement at a time.",
+                "In order to prevent blocking behavior, the browser environment has many Web APIs that JavaScript can access that are asynchronous , meaning they can run in parallel with other operations instead of sequentially.",
+                "As a JavaScript developer, you need to know how to work with asynchronous Web APIs and handle the response or error of those operations.",
+                "Note : This article is focused on client-side JavaScript in the browser environment.",
+                "This section will explain how JavaScript handles asynchronous code with the event loop.",
+                "JavaScript code that does not use any asynchronous Web APIs will execute in a synchronous manner—one at a time, sequentially.",
+                "This happens because the JavaScript host environment, in this case the browser, uses a concept called the event loop to handle concurrency, or parallel events.",
+                "Since JavaScript can only execute one statement at a time, it needs the event loop to be informed of when to execute which specific statement.",
+                "JavaScript will run the current frame (or function call in a specific environment) in the stack, then remove it and move on to the next one.",
+                "This was a big frustration for JavaScript developers early on, and as a result code containing nested callbacks is often called the \"pyramid of doom\" or \"callback hell.\"",
+                "As a JavaScript developer, you will likely spend more time consuming promises than creating them, as it is usually asynchronous Web APIs that return a promise for the developer to consume.",
+                "So far, the example you created did not involve an asynchronous Web API—it only explained how to create, resolve, and consume a native JavaScript promise.",
+                "For the successful result, you return JavaScript objects that represent sample user data.",
+                "async functions still use promises under the hood, but have a more traditional JavaScript syntax.",
+                "Modern asynchronous JavaScript code is most often handled with async / await syntax, but it is important to have a working knowledge of how promises work, especially as promises are capable of additional features that cannot be handled with async / await , like combining promises with Promise.all() .",
+                "To learn more, check out our Understanding Generators in JavaScript tutorial.",
+                "Conclusion Because Web APIs often provide data asynchronously, learning how to handle the result of asynchronous actions is an essential part of being a JavaScript developer.",
+                "If you'd like to learn more about JavaScript, return to our How To Code in JavaScript series.",
+                "Post Details Published: September 10, 2020 Category: Technical Tags javascript fundamentals asynchronous event-loop Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/websockets-in-redux/",
+        "data": {
+            "relevant_content": [
+                "Post Details Published: February 15, 2023 Category: Technical Tags redux api javascript Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/writing-an-emulator-in-javascript-chip8",
+        "data": {
+            "relevant_content": [
+                "Writing an Emulator from Scratch in JavaScript (Chip-8) | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me Writing an Emulator from Scratch in JavaScript (Chip-8) I spent a good portion of my childhood playing emulated NES and SNES games on my computer, but I never imagined I'd write an emulator myself one day.",
+                "However, Vanya Sergeev challenged me to write a Chip-8 interpreter to learn some of the basic concepts of lower-level programming languages and how a CPU works, and the end result is a Chip-8 emulator in JavaScript that I wrote with his guidance.",
+                "As such, this isn't intended to be a how-to guide, but an overview of how I built the emulator, what major concepts I learned, and some JavaScript specifics for making a browser, CLI, or native app.",
+                "It's also a good starting point for a lot of CPU concepts in general, like memory, stacks, and I/O, things I deal with on a daily basis in the infinitely more complex world of a JavaScript runtime.",
+                "So I wrote Understanding Bits, Bytes, Bases, and Writing a Hex Dump in JavaScript which goes over much of that.",
+                "Prefixes - In JavaScript, 0x is a prefix for a hex number, and 0b is a prefix for a binary number.",
+                "4kb is 4096 bytes, and JavaScript has some helpful typed arrays , like Uint8Array which is a fixed-size array of a certain element - in this case 8-bits.",
+                "Both the buffer and memory act as arrays in JavaScript, so loading the memory is just a matter of looping through the buffer and placing the bytes into the memory array.",
+                "JavaScript doesn't really have a concept of an abstract class as far as I could find, but I created one by making a class that could not itself be instantiated, with methods that can only be used from classes that extend it.",
+                "I learned a lot about lower level programming concepts and how a CPU operates, and also about the capabilities of JavaScript outside of a browser app or REST API server.",
+                "Post Details Published: April 13, 2020 Category: Technical Tags javascript node games Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/",
+        "data": {
+            "relevant_content": [
+                "The Lore of Animorphs (an Ode) December 2022 Tending to My Digital Garden December 2022 Memories of Josh August 2022 Highlights November 17, 2021 An Introduction to GraphQL June 23, 2021 How to Structure and Organize a React Application October 15, 2020 How to Set Up webpack 5 From Scratch September 10, 2020 The Event Loop, Callbacks, Promises, and Async/Await in JavaScript March 09, 2020 How to Use Redux and React February 17, 2020 How to Set up a Mac for Development December 02, 2019 A Complete Guide to CSS Concepts and Fundamentals May 16, 2019 How to Use Vue, the JavaScript Framework February 11, 2019 Everything I Know as a Software Developer Without a Degree (2019)",
+                "August 20, 2018 How to Use React, the JavaScript Framework October 12, 2017 Design for Developers: Specific Steps to Improve Your Website Design January 09, 2017 How to Use the Command Line in Linux and macOS Projects All Projects 2022 Keyboard Accordion Play the accordion with your keyboard!"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/overview-of-css-concepts/",
+        "data": {
+            "relevant_content": [
+                "CSS and JavaScript Note that even if you don't care much about CSS, learning about selectors will help you write (vanilla) JavaScript, as the DOM selectors in a JavaScript document query are the same.",
+                "!important should only be used when absolutely necessary, like styling some third party you have no control over that is using inline styles, and in a few cases with JavaScript toggling display.",
+                "My rules are as follows: IDs are exclusively used for JavaScript purposes.",
+                "To easily target an individual element with JavaScript, you can use an ID, and know that it has no affect on the style.",
+                "It also works fantastically out-of-the-box with the JavaScript framework, Vue ."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/getting-started-with-react/",
+        "data": {
+            "relevant_content": [
+                "How to Use React, the JavaScript Framework | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me How to Use React, the JavaScript Framework I've been hearing about React since I first started learning JavaScript, but I'll admit I took one look at it",
+                "I saw what looked like a bunch of HTML mixed with JavaScript and thought, isn't this what we've been trying to avoid?",
+                "Instead, I focused on just learning vanilla JavaScript and working with jQuery in a professional setting.",
+                "If you've never used JavaScript or the DOM at all before, for example, I would get more familiar with those before trying to tackle React.",
+                "Basic knowledge of JavaScript and programming.",
+                "React is a JavaScript library - one of the most popular ones, with over 100,000 stars on GitHub .",
+                "React - the React top level API React DOM - adds DOM-specific methods Babel - a JavaScript compiler that lets us use ES6+ in old browsers The entry point for our app will be the root div element, which is named by convention.",
+                "It's just some JavaScript helper libraries that we can load into our HTML.",
+                "The method I just used of loading JavaScript libraries into a static HTML page and rendering the React and Babel on the fly is not very efficient, and is hard to maintain.",
+                "This is our first hint that the code being written here is JavaScript, and not actually HTML.",
+                "JSX: JavaScript + XML As you've seen, we've been using what looks like HTML in our React code, but it's not quite HTML.",
+                "This is JSX , which stands for JavaScript XML.",
+                "JSX is actually closer to JavaScript, not HTML, so there are a few key differences to note when writing it.",
+                "className is used instead of class for adding CSS classes, as class is a reserved keyword in JavaScript.",
+                "Self-closing tags must end in a slash - e.g. <img /> JavaScript expressions can also be embedded inside JSX using curly braces, including variables, functions, and properties.",
+                "Hello, { name } </ h1 > JSX is easier to write and understand than creating and appending many elements in vanilla JavaScript, and is one of the reasons people love React so much.",
+                "The data I'm passing through is the characters variable, and I'll put curly braces around it as it's a JavaScript expression.",
+                "== index } ) , } ) } filter does not mutate but rather creates a new array, and is a preferred method for modifying arrays in JavaScript.",
+                "If you're not familiar with what an API is or how to connect to one, I would recommend reading How to Connect to an API with JavaScript , which will walk you through what APIs are and how to use them with vanilla JavaScript.",
+                "We're going to use JavaScript's built-in Fetch to gather the data from that URL endpoint and display it.",
+                "Post Details Published: August 20, 2018 Category: Technical Tags api javascript react tutorial frameworks Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/",
+        "data": {
+            "relevant_content": [
+                "I'm primarily a full-stack web developer, so most of my needs will revolve around JavaScript/Node.js."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/animorphs/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/sokoban-game",
+        "data": {
+            "relevant_content": [
+                "Writing a Sokoban Puzzle Game in JavaScript | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me Writing a Sokoban Puzzle Game in JavaScript",
+                "So the other day, I made an implementation of a Sokoban puzzle game in JavaScript.",
+                "Post Details Published: July 26, 2021 Category: Technical Tags javascript games Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/rss.xml",
+        "data": {
+            "relevant_content": [
+                "<p>I think over the last few years, I've become much less of a \"known entity\" in the JavaScript/front end world.",
+                "class=\"token punctuation\">{</span>users<span class=\"token punctuation\">.</span><span class=\"token function\">map</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">(</span><span class=\"token parameter\">user</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">(</span></span><span class=\"gatsby-highlight-code-line\">            <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>li</span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>user<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>user<span class=\"token punctuation\">.</span>name<span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>li</span><span class=\"token punctuation\">></span></span></span><span class=\"gatsby-highlight-code-line\">          <span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span><span class=\"token plain-text\"></span></span><span class=\"gatsby-highlight-code-line\"><span class=\"token plain-text\">        </span><span",
+                "<div class=\"gatsby-highlight\" data-language=\"jsx\"><pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">PrivateRoute</span></span> <span class=\"token attr-name\">exact</span> <span class=\"token attr-name\">path</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>/users<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">component</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>UsersPage<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">PrivateRoute</span></span> <span class=\"token attr-name\">exact</span> <span class=\"token attr-name\">path</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>/users/:user_id<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">component</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>UserEditorPage<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span></code></pre></div>",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Route</span></span> <span class=\"token attr-name\">component</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>Component<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>rest<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span><span class=\"token plain-text\">",
+                "It feels weird to have a short, low-effort post about how I'm doing, what I'm doing, or something personal next to a massive diatribe about <a href=\"/asynchronous-javascript-event-loop-callbacks-promises-async-await/\">the event loop</a> or everything you might want to <a href=\"/overview-of-css-concepts/\">know about CSS fundamentals</a>.</p>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">DragDropContext</span></span> <span class=\"token attr-name\">onDragEnd</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleDragEnd<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">ref</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>provided<span class=\"token punctuation\">.</span>innerRef<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>provided<span class=\"token punctuation\">.</span>droppableProps<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Draggable</span></span> <span class=\"token attr-name\">draggableId</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>item<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">index</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>index<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">ref</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>provided<span class=\"token punctuation\">.</span>innerRef<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>provided<span class=\"token punctuation\">.</span>draggableProps<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "Good thing we use 2-space indentation in JavaScript!",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Droppable</span></span> <span class=\"token attr-name\">droppableId</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">type</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>type<span class=\"token punctuation\">}</span></span><span",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">ref</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>provided<span class=\"token punctuation\">.</span>innerRef<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>provided<span class=\"token punctuation\">.</span>droppableProps<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>props<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Draggable</span></span> <span class=\"token attr-name\">draggableId</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">index</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>index<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>div</span> <span class=\"token attr-name\">ref</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>provided<span class=\"token punctuation\">.</span>innerRef<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>provided<span class=\"token punctuation\">.</span>draggableProps<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>props<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">DragAndDrop</span></span> <span class=\"token attr-name\">onDragEnd</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleDragEnd<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Drag</span></span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>item<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">id</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>item<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">index</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>index<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">DragAndDrop</span></span> <span class=\"token attr-name\">onDragEnd</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleDragEnd<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Drag</span></span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>category<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">id</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>category<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">index</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>categoryIndex<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Drop</span></span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>category<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">id</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>category<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>droppable-item<span class=\"token punctuation\">\"</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Drag</span></span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>item<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">id</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>item<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">index</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>index<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<li>A basic knowledge of HTML and JavaScript, which you can gain from the series, <a href=\"https://www.digitalocean.com/community/tutorial_series/how-to-build-a-website-with-html\">How To Build a Website With HTML</a> and <a href=\"https://www.digitalocean.com/community/tutorial_series/how-to-code-in-javascript\">How To Code in JavaScript</a>.</li>",
+                "<li><code class=\"language-text\">graphql</code>: the JavaScript reference implementation for GraphQL.</li>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script\"><span class=\"token language-javascript\">",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>script</span><span class=\"token punctuation\">></span></span><span class=\"token script\"><span class=\"token language-javascript\">",
+                "Everything else is done using plain JavaScript and the built-in browser <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API\">Web Audio API</a>.",
+                "To play the scales, I simply looped through all the ids that correspond to the notes in the scale and used a JavaScript \"sleep\" command of 600ms between each note.</p>",
+                "<p>Now that I have all the data structures set up and the JavaScript, I just need to render all the buttons.",
+                "<span class=\"token keyword\">return</span> <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">AdvancedForm</span></span> <span class=\"token attr-name\">schema</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>schema<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleSubmit<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>form</span> <span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleSubmit<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>value<span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token attr-name\">onChange</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>",
+                "<span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>value<span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token attr-name\">onChange</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>",
+                "<span class=\"token attr-name\">initialValues</span><span class=\"token script language-javascript\"><span",
+                "<span class=\"token attr-name\">validationSchema</span><span class=\"token script language-javascript\"><span",
+                "<span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>onSubmit<span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>form</span> <span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleSubmit<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>submit<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token operator\">!</span>isValid <span class=\"token operator\">||</span> isSubmitting<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token attr-name\">initialValues</span><span class=\"token script language-javascript\"><span",
+                "<span class=\"token attr-name\">validationSchema</span><span class=\"token script language-javascript\"><span",
+                "<span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>onSubmit<span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>form</span> <span class=\"token attr-name\">onSubmit</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleSubmit<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\"></span>",
+                "Pass the formSchema data into the Field component</span></span><span class=\"gatsby-highlight-code-line\">              <span class=\"token keyword\">return</span> <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Field</span></span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span",
+                "class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>formSchema<span class=\"token punctuation\">.</span>name<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">component</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>Component<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>formSchema<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span></span><span class=\"gatsby-highlight-code-line\">            <span class=\"token punctuation\">}</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span><span class=\"token plain-text\"></span></span><span class=\"token plain-text\">            </span><span",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>submit<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token operator\">!</span>isValid <span class=\"token operator\">||</span> isSubmitting<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\"></span>",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>label</span> <span class=\"token attr-name\">htmlFor</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>name<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>input</span> <span class=\"token attr-name\">type</span><span class=\"token attr-value\"><span class=\"token punctuation attr-equals\">=</span><span class=\"token punctuation\">\"</span>text<span class=\"token punctuation\">\"</span></span> <span class=\"token attr-name\">id</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>name<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">name</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>name<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>value<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>fieldProps<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>props<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span><span class=\"token plain-text\">",
+                "<span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>formSchema<span class=\"token punctuation\">.</span>name<span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token attr-name\">show</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>",
+                "<span class=\"token attr-name\">onCollapse</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>",
+                "<span class=\"token attr-name\">onShow</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token punctuation\">{</span>",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Field</span></span> <span class=\"token attr-name\">component</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>Component<span class=\"token punctuation\">}</span></span> <span class=\"token spread\"><span class=\"token punctuation\">{</span><span class=\"token operator\">...</span>formSchema<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span><span class=\"token plain-text\">",
+                "This article eplains the different flows, and how to set up the code challenge/code verifier in JavaScript for PKCE.</p>",
+                "<p><a href=\"/sokoban-game/\">Writing a Sokoban Puzzle Game in JavaScript</a> - I had fun using what I learned on the Chip-8 project to make another little puzzle game in JavaScript.",
+                "It basically sums it up.</p> hello@taniarascia.com How to Sort, Filter, and Paginate a Table with JavaScript One thing I've had to do at every job I've had is implement a table on the front end of an application that has sorting, filtering, and… https://www.taniarascia.com/front-end-tables-sort-filter-paginate/ https://www.taniarascia.com/front-end-tables-sort-filter-paginate/ Fri, 22 Oct 2021 00:00:00 GMT <p>One thing I've had to do at every job I've had is implement a table on the front end of an application that has sorting, filtering, and pagination.</p>",
+                "<li>Knowledge of JavaScript, React</li>",
+                "attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span>label<span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>th</span><span class=\"token punctuation\">></span></span>",
+                "<span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>tr</span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>row<span class=\"token punctuation\">.</span>id<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token keyword\">return</span> <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>td</span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span><span class=\"token function\">format</span><span class=\"token punctuation\">(</span>row<span class=\"token punctuation\">[</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">]</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>td</span><span class=\"token punctuation\">></span></span>",
+                "<span class=\"token keyword\">return</span> <span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>td</span> <span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>row<span class=\"token punctuation\">[</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">]</span><span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>td</span><span class=\"token punctuation\">></span></span>",
+                "<div class=\"gatsby-highlight\" data-language=\"jsx\"><pre class=\"language-jsx\"><code class=\"language-jsx\"><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Table</span></span> <span class=\"token attr-name\">rows</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>rows<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">columns</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>columns<span class=\"token punctuation\">}</span></span> <span class=\"token punctuation\">/></span></span></code></pre></div>",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span><span class=\"token class-name\">Pagination</span></span></span><span class=\"gatsby-highlight-code-line\">        <span class=\"token attr-name\">activePage</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>activePage<span class=\"token punctuation\">}</span></span></span><span class=\"gatsby-highlight-code-line\">        <span class=\"token attr-name\">count</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>count<span class=\"token punctuation\">}</span></span></span><span class=\"gatsby-highlight-code-line\">        <span class=\"token attr-name\">rowsPerPage</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>rowsPerPage<span class=\"token punctuation\">}</span></span></span><span class=\"gatsby-highlight-code-line\">        <span class=\"token attr-name\">totalPages</span><span class=\"token script language-javascript\"><span",
+                "class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>totalPages<span class=\"token punctuation\">}</span></span></span><span class=\"gatsby-highlight-code-line\">        <span class=\"token attr-name\">setActivePage</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>setActivePage<span class=\"token punctuation\">}</span></span></span><span class=\"gatsby-highlight-code-line\">      <span class=\"token punctuation\">/></span></span><span class=\"token plain-text\"></span></span><span class=\"token plain-text\">    </span><span",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>activePage <span class=\"token operator\">===</span> <span class=\"token number\">1</span><span class=\"token punctuation\">}</span></span> <span",
+                "class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">setActivePage</span><span class=\"token punctuation\">(</span><span class=\"token number\">1</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>activePage <span class=\"token operator\">===</span> <span class=\"token number\">1</span><span class=\"token punctuation\">}</span></span> <span",
+                "class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">setActivePage</span><span class=\"token punctuation\">(</span>activePage <span class=\"token operator\">-</span> <span class=\"token number\">1</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>activePage <span class=\"token operator\">===</span> totalPages<span class=\"token punctuation\">}</span></span> <span",
+                "class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">setActivePage</span><span class=\"token punctuation\">(</span>activePage <span class=\"token operator\">+</span> <span class=\"token number\">1</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>button</span> <span class=\"token attr-name\">disabled</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>activePage <span class=\"token operator\">===</span> totalPages<span class=\"token punctuation\">}</span></span> <span",
+                "class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">setActivePage</span><span class=\"token punctuation\">(</span>totalPages<span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "<span class=\"token attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token interpolation\"><span class=\"token interpolation-punctuation punctuation\">${</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token interpolation-punctuation punctuation\">}</span></span><span class=\"token string\">-search</span><span",
+                "<span class=\"token attr-name\">placeholder</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token template-string\"><span class=\"token template-punctuation string\">`</span><span class=\"token string\">Search </span><span",
+                "<span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>filters<span class=\"token punctuation\">[</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">]</span><span class=\"token punctuation\">}</span></span>",
+                "<span class=\"token attr-name\">onChange</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token parameter\">event</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">handleSearch</span><span class=\"token punctuation\">(</span>event<span class=\"token punctuation\">.</span>target<span class=\"token punctuation\">.</span>value<span class=\"token punctuation\">,</span> column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span>",
+                "attr-name\">key</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span> <span class=\"token operator\">=></span> <span class=\"token function\">handleSort</span><span class=\"token punctuation\">(</span>column<span class=\"token punctuation\">.</span>accessor<span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span><span class=\"token function\">sortIcon</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span>button</span><span class=\"token punctuation\">></span></span><span class=\"token plain-text\">",
+                "Writing a Sokoban Puzzle Game in JavaScript",
+                "So the other day, I made an implementation of a Sokoban puzzle game in JavaScript.",
+                "The game… https://www.taniarascia.com/sokoban-game/ https://www.taniarascia.com/sokoban-game/ Mon, 26 Jul 2021 00:00:00 GMT <p>So the other day, I made an implementation of a <a href=\"https://en.wikipedia.org/wiki/Sokoban\">Sokoban</a> puzzle game in JavaScript.</p>",
+                "<li><a href=\"#services\">services</a> - JavaScript modules</li>",
+                "<p>The <code class=\"language-text\">services</code> directory is less essential than <code class=\"language-text\">components</code>, but if you're making a plain JavaScript module that the rest of the application is using, it can be handy.",
+                "Provider</span></span> <span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>value<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>children<span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span><span class=\"token class-name\">Context.Provider</span></span><span",
+                "Provider</span></span> <span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>value<span class=\"token punctuation\">}</span></span><span class=\"token punctuation\">></span></span><span class=\"token punctuation\">{</span>children<span class=\"token punctuation\">}</span><span class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;/</span><span class=\"token class-name\">DashboardWidgetContext.Provider</span></span><span",
+                "class=\"token tag\"><span class=\"token tag\"><span class=\"token punctuation\">&lt;</span>select</span> <span class=\"token attr-name\">value</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>dataView<span class=\"token punctuation\">}</span></span> <span class=\"token attr-name\">onChange</span><span class=\"token script language-javascript\"><span class=\"token script-punctuation punctuation\">=</span><span class=\"token punctuation\">{</span>handleChangeView<span class=\"token punctuation\">}</span></span><span",
+                "<p>I did two project write-ups - TakeNote and Chip8.js, several articles on JavaScript for DigitalOcean's fundamentals series, and covered few big concepts like Redux, Docker, and webpack.",
+                "<li><a href=\"/understanding-map-and-set-javascript/\">Understanding Map and Set in JavaScript</a></li>",
+                "<li><a href=\"/understanding-generators-in-javascript/\">Understanding Generators in JavaScript</a></li>",
+                "<li><a href=\"/default-parameters-javascript/\">Understanding Default Parameters in JavaScript</a></li>",
+                "<li><a href=\"/writing-an-emulator-in-javascript-chip8/\">Writing an Emulator in JavaScript (Chip-8)</a></li>",
+                "<li><a href=\"/understanding-template-literals/\">Understanding Template Literals in JavaScript</a></li>",
+                "<li><a href=\"/understanding-arrow-functions-in-javascript/\">Understanding Arrow Functions in JavaScript</a></li>",
+                "<li><a href=\"/asynchronous-javascript-event-loop-callbacks-promises-async-await/\">Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript</a></li>",
+                "<li><a href=\"/javascript-modules-import-export/\">Understanding Modules, Import and Export in JavaScript</a></li>",
+                "I think the best article I wrote this year is <a href=\"https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/\">Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript</a>, which is a deep dive on how JavaScript and the event loop work under the hood.",
+                "<p>Lately, I've wanted to do some extracurricular projects outside of programming and writing about JavaScript."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/getting-started-with-vue/",
+        "data": {
+            "relevant_content": [
+                "How to Use Vue, the JavaScript Framework | Tania Rascia's Personal Website Tania Rascia Notes Articles Projects About Me How to Use Vue, the JavaScript Framework We're in a golden era of JavaScript libraries and frameworks.",
+                "Vue.js is going toe-to-toe with React for popularity among JavaScript developers, so I'd like to offer the same straightforward and concise introduction for those who'd like to learn Vue as well.",
+                "Prerequisites Knowledge of HTML & CSS Knowledge of basic JavaScript Familiarity of ES6+ features and syntax Node.js and npm (or yarn) installed globally Familiarity with REST APIs would be helpful, but we'll go over it.",
+                "Vue (or Vue.js) is an open-source front-end JavaScript framework Vue is the view layer of an MVC application (Model View Controller)",
+                "Vue is currently one of the most popular JavaScript libraries/frameworks Unlike other popular JavaScript projects, Vue is not backed by a large corporation like React (Facebook) or Angular (Google).",
+                "If you've already used React or another JavaScript framework, feel free to skip to the next section.",
+                "At this point, it's not very impressive, and it's what you'll learn in the introduction of the documentation , but it drives home the important point that Vue is just JavaScript, and there's no need to get nervous about Node, Babel, Webpack, and so on.",
+                "I originally learned front end coding with a focus on separation of concerns for HTML, CSS, and JavaScript, and here we have all three together.",
+                "Yet JavaScript and the way we design apps has evolved, and keeping our styles and view and component coupled together is generally considered an advantage and improves maintainability.",
+                "This uses the proper conventions for JavaScript and HTML respectively.",
+                "Using :class= ensures that the class will be treated as JavaScript instead of a plain string.",
+                "Post Details Published: May 16, 2019 Category: Technical Tags javascript vue tutorial frameworks Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/everything-i-know-as-a-software-developer-without-a-degree/",
+        "data": {
+            "relevant_content": [
+                "The basics of jQuery , a JavaScript library - Although I had no knowledge of JavaScript or programming, I began to figure out the basics of jQuery by copying and pasting snippets and code and hoping for the best - which I would use to make \"awesome\" effects like parallax scroll .",
+                "It was a hurdle to learn how to load a JavaScript file, load jQuery first, and other very novice mistakes.",
+                "How to use Grunt , a JavaScript task runner - Just compiling Sass wasn't enough - I wanted to combine it with auto-prefixing, minifying, and other tasks.",
+                "How to use Gulp , another JavaScript task runner - I quickly realized Grunt was convoluted and slow, so I upgraded to using Gulp.",
+                "Back End 101 through JavaScript - comments, varibles, data types , and comparisons, math, and logic .",
+                "How to use JSON with PHP and/or JavaScript - I learned how to utilize data stored in JSON format (JavaScript Object Notation) in my PHP or JavaScript code.",
+                "Side quest: Technical Writer for DigitalOcean I took a few month long sabbatical and traveled around Europe for a while after I left the WordPress job, but during that time I wrote the How to Code in JavaScript and Understanding the DOM (Document Object Model) series, which gave me a much deeper understanding programming and JavaScript, concepts like prototypical inheritance and scope, and finally understanding how the DOM actually works and is different than a website's source, which was much less relevant to me when I was only working with PHP-based sites.",
+                "How to write a memory game in JavaScript -",
+                "For one job interview for becoming a PHP developer, I made a memory game in JavaScript, putting together much of what I learned about the DOM and data types to actually build things without any libraries or frameworks or tutorials.",
+                "How to connect to a REST API with JavaScript - I began to learn what REST (Representational State Transfer) was, and how REST HTTP methods could be comparable with CRUD.",
+                "JavaScript local storage and session storage How to work with files and file uploads - I worked a lot with modifying and saving files to a file system through JavaScript and PHP, something that was intensely mysterious to me previously.",
+                "JavaScript seemed like a good choice due to all the JavaScript I had been teaching myself on my own, so I ended up getting a position as a front end software engineer writing applications in React.",
+                "ES6+ - The syntax of ECMAScript 2015/ES6+, the new additions to JavaScript made over the last few years.",
+                "How to use React - I was very opposed to learning React, Vue, Angular, or any other JavaScript framework/library until I felt like I could do what those things accomplish in vanilla JavaScript first.",
+                "ECMAScript (S)FTP - (Secure) File Transfer Protocol Front end/client-side - the presentation layer HTML - Hypertext Markup Language HTTP(S) - HyperText Transfer Protocol (Secure) JSON - JavaScript Object Notation MVC - Model View Controller REST - Representational State Transfer SPA - Single Page Application SQL - Structured Query Language SSG - Static Site Generator SSH - Secure Shell SSL - Secure Sockets Layer TLS - Transport Layer Security VCS - Version Control Systems (Git) VM - Virtual Machine Conclusion Carl Sagan once said, \"if you wish to make an apple pie from scratch, you must first invent the universe\" ."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/design-for-developers/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/building-takenote",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/graphql-type-system/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/keyboard-shortcut-hook-react/",
+        "data": {
+            "relevant_content": [
+                "Post Details Published: October 19, 2024 Category: Technical Tags javascript react hooks caching tutorial Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/2022-into-2023/",
+        "data": {
+            "relevant_content": [
+                "I think over the last few years, I've become much less of a \"known entity\" in the JavaScript/front end world."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/musical-instrument-web-audio-api",
+        "data": {
+            "relevant_content": [
+                "Everything else is done using plain JavaScript and the built-in browser Web Audio API .",
+                "To play the scales, I simply looped through all the ids that correspond to the notes in the scale and used a JavaScript \"sleep\" command of 600ms between each note.",
+                "Rendering Now that I have all the data structures set up and the JavaScript, I just need to render all the buttons."
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/blog",
+        "data": {
+            "relevant_content": [
+                "Nov 17 How to Sort, Filter, and Paginate a Table with JavaScript Oct",
+                "Writing a Sokoban Puzzle Game in JavaScript Jul 26 How to Structure and Organize a React Application Jun 23 Using OAuth with PKCE Authorization Flow (Proof Key for Code Exchange)",
+                "How and When to Use Context in React with Hooks Jun 15 Integration Tests with Jest, Supertest, Knex, and Objection in TypeScript Apr 06 2020 Understanding Modules, Import and Export in JavaScript Oct 23 How to Set Up webpack 5 From Scratch Oct 15 The Event Loop, Callbacks, Promises, and Async/Await in JavaScript Sep 10 How to Sort, Filter, and Paginate in a REST API Sep 09 Understanding Arrow Functions in JavaScript Aug 01",
+                "Using Git Submodules for Private Content Jul 01 Understanding Template Literals in JavaScript Jun 30 Understanding Destructuring, Rest Parameters, and Spread Syntax May 14 Writing an Emulator from Scratch in JavaScript (Chip-8)",
+                "Apr 13 Understanding Default Parameters in JavaScript Mar 31 How to Use Redux and React Mar 09 Understanding Generators in JavaScript Feb 29 How to Set up a Mac for Development Feb 17 Understanding Map and Set in JavaScript Feb 12 How to Use Docker to Create a CI/CD Pipeline Feb 07 2019 A Complete Guide to CSS Concepts and Fundamentals Dec 02",
+                "Oct 29 Understanding This, Bind, Call, and Apply in JavaScript Oct",
+                "How to Build a Simple MVC App From Scratch in JavaScript Jul 30 How to Make API Requests with Postman or cURL Jul 16 Display Build Status and Test Coverage Badges for a JavaScript Project Jul 15 How to Use Vue, the JavaScript Framework",
+                "Writing a Snake Game for the Terminal in JavaScript Apr 09",
+                "Using Content Editable Elements in JavaScript (React) Jan 22",
+                "Understanding Bits, Bytes, and Numerical Bases Jan 04 2018 Build a CRUD App in React with Hooks Nov 07 Promise.all with Async/Await Oct 04 Understanding REST APIs Sep 21 How to Use React, the JavaScript Framework Aug 20 How to Promisify an Ajax Call Aug 08",
+                "How To Use Object Methods in JavaScript Aug 03",
+                "The Simplest PHP Router Jun 21 Understanding Events in JavaScript Jun 19 How to Create a Snippet in Visual Studio Code Jun 12 Rewrite Query String to Path with htaccess Jun 07 How to Create and Use Bash Scripts",
+                "May 29 SQL and PDO Operations Reference May 08 Understanding Classes in JavaScript May 04 How to Upload Files to a Server with Plain JavaScript and PHP Apr 28 Create a Simple CRUD Database App (Part 2)",
+                "How to Paginate an Array in JavaScript Apr 09 ES6 Syntax and Feature Overview Apr 09 Basic Refactoring: Don't Repeat Yourself",
+                "Apr 05 Object Oriented Pattern: JavaScript Classes and PHP Classes Mar 29 Unit Testing in JavaScript with Mocha Mar 27 How to Use the JavaScript Fetch API to Get JSON Data Mar 06 How to Set Up a Cron Job in MAMP Mar 04 Understanding Variables, Scope and Hoisting in JavaScript Feb 20 Create a Memory Game (ala Super Mario 3) with JavaScript Feb 07 Understanding Prototypes and Inheritance in JavaScript Jan 12 2017 How To Make Changes to the DOM Dec 26 How to Use Local Storage with JavaScript Dec 19 How to Connect to an API with JavaScript Dec 07 How To Traverse the DOM Dec 04 How To Access Elements in the DOM Nov 20 Basic Authentication for an Express Node App (htpasswd) Nov 13 Understanding the DOM Tree and Nodes Nov 07 Introduction to the DOM Nov 06 How To Write Conditional Statements in",
+                "JavaScript Oct 19 Understanding Date and Time in JavaScript",
+                "Oct 19 Design for Developers: Specific Steps to Improve Your Website Design Oct 12 Understanding Functions in JavaScript Oct 09 Using While and Do While Loops in JavaScript Sep 27",
+                "How To Use the Switch Statement in JavaScript Sep 11 How To Create For Loops in JavaScript Sep 11",
+                "Understanding Objects in JavaScript Aug 24 How To Use Array Methods in JavaScript: Iteration Methods Aug 15 How To Use Array Methods in JavaScript: Accessor Methods Aug 14 Examples of Map, Filter and Reduce in JavaScript Aug 11 How To Use Array Methods in JavaScript: Mutator Methods Aug 10 Understanding Arrays in JavaScript Jul 28 Node.js and npm Tutorial: Installation and Usage Jul 21 How To Index, Split, and Manipulate Strings in JavaScript Jul 14 How to Work with Strings in JavaScript Jul 11 Understanding Syntax and Code Structure Jul 05 How to Install Apache, PHP 7, and MySQL on Ubuntu with Vagrant Jul 03 How to Set Up a Virtual Server with Vagrant and VirtualBox Jul 02 How To Write Comments in JavaScript Jun 20 How to Generate a Public Key from a Private Key Jun 06 Build a PHP & MySQL CRUD Database App From Scratch",
+                "Prevent Mouse Scroll from Zooming on Embedded Google Maps Apr 05 A Practical Guide to Search Engine Optimization (SEO) with Google Mar 29 Background Position Fixed and Cover with CSS Mar 27 Crossfade Between Two Images with CSS Animations Mar 27 Redirect all HTTP requests to HTTPS Mar 23 Simple jQuery Examples with Code and Demos Feb 23 How to Use jQuery, a JavaScript Library Feb 08",
+                "How to Request JSON API Data with JavaScript or PHP Jan 22 How to Use the Command Line in Linux and macOS Jan 09 2016 My Complete Front End Web Development Setup Nov 10 Styling UI Components from Scratch: Buttons & Forms Nov 08 Setting Up a Basic Cron Job on a Linux Server Oct 14 WordPress Tutorial: Custom Fields and Meta Boxes Aug 10 How to Build a Responsive Image Gallery with Flexbox Jul 26 How To Do Math in JavaScript with Operators Jul 20 JavaScript Comparisons, Math, and Logic Jun 25 Adding Syntax Highlighting to Code Snippets in a Blog or Website Jun 07",
+                "Parallax Scroll Effect Apr 09 JavaScript Comments, Variables, Data Types, and Hello, World!",
+                "Mar 30 Automated Task Running in JavaScript with Gulp Feb 16",
+                "WordPress Tutorial: Pagination, Comments, Functions, & Custom Posts Jan 14 2015 How to Set Up an EC2 Virtual Server in AWS Dec 22 How to Use Sass, a CSS Preprocessor Dec 12 How to Create a Static Website with Jekyll Nov 30 Full Screen Navigation Overlay Nov 21 Google Maps APIs for Multiple Locations Nov 14 How to Use Bootstrap, a CSS Framework Nov 10 Off Canvas Navigation Nov 02 Understanding the Fundamentals of Responsive Design Oct 31 RSS Feeds Oct 28 Migrating a WordPress Site to a Live Server Oct 23 Automated Task Running in JavaScript with Grunt Oct 20 WordPress Tutorial: Developing a Wordpress Theme from Scratch Oct 17 Setting Up a Local Server Environment Oct 17 Setting Up Virtual Hosts Oct 17 How to Create a Flexbox Grid Oct 07 Responsive Dropdown Navigation Bar Oct 02 Basic HTML5 Skeleton File Sep 30"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/2023-into-2024/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/how-to-use-webpack/",
+        "data": {
+            "relevant_content": [
+                "Prerequisites Basic familiarity with HTML & CSS Basic knowledge of JavaScript and programming Familiarity with ES6 syntax and features Ability to set up a Node.js environment Knowledge of the command line Goals Learn what webpack is and why you might want to use it Set up a development server with webpack Set up a production build flow using webpack Content What is webpack Installation Basic configuration Entry Output Plugins HTML template Clean Modules and Loaders Babel (JavaScript)",
+                "For the most part, websites are no longer just written in plain HTML with a bit of optional JavaScript - they're often entirely built by JavaScript.",
+                "It allows you to write the latest JavaScript with Babel or use TypeScript, and compile it into something cross-browser compatible and neatly minified.",
+                "It also allows you to import static assets into your JavaScript.",
+                "If we're building a web app, we need an HTML page that will load that JavaScript bundle as a script.",
+                "http-server You'll see our JavaScript injected into the DOM, saying \"Interesting!\".",
+                "This can be JavaScript files, static assets like images and CSS styles, and compilers like TypeScript and Babel.",
+                "In your project you have an HTML file that loads and brings in some JavaScript, but it still doesn't actually do anything.",
+                "Compile the latest and greatest JavaScript to a version the browser understands Import styles and compile SCSS into CSS Import images and fonts (Optional) Set up React or Vue First thing we'll do is set up Babel to compile JavaScript.",
+                "Babel (JavaScript) Babel is a tool that allows us to use tomorrow's JavaScript, today.",
+                "@babel/core - Transpile ES2015+ to backwards compatible JavaScript @babel/preset-env - Smart defaults for Babel @babel/plugin-proposal-class-properties - An example of a custom Babel config (use properties directly on a class)",
+                "*/ module : { rules : [ // JavaScript { test : /",
+                "\\.js$ / , exclude : / node_modules / , use : [ 'babel-loader' ] , } , ] , } , } If you're setting up a TypeScript project, you would use the typescript-loader instead of babel-loader for all your JavaScript transpiling needs.",
+                "Images You'll want to be able to import images directly into your JavaScript files, but that's not something that JavaScript can do by default.",
+                "A lot of people these days are using CSS-in-JS , styled-components , and other tools to bring styles into their JavaScript apps.",
+                "This will allow modules to update without doing a complete reload of the page - so if you update some styles, just those styles will change, and you won't need to reload the entirety of the JavaScript, which speeds up development a lot.",
+                "Now you can update Sass and JavaScript and watch it update on the fly.",
+                "Post Details Published: October 15, 2020 Category: Technical Tags javascript webpack tools tutorial Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/notes",
+        "data": {
+            "relevant_content": []
+        }
+    },
+    {
+        "url": "https://www.taniarascia.com/react-architecture-directory-structure/",
+        "data": {
+            "relevant_content": [
+                "The top level directory structure will be as follows: assets - global static assets such as images, svgs, company logo, etc. components - global shared/reusable components, such as layout (wrappers, navigation), form components, buttons services - JavaScript modules store - Global Redux store utils - Utilities, helpers, constants, and the like views - Can also be called \"pages\", the majority of the app would be contained here I like keeping familiar conventions wherever possible, so src contains everything, index.js is the entry point, and App.js sets up the auth and routing. .",
+                "The services directory is less essential than components , but if you're making a plain JavaScript module that the rest of the application is using, it can be handy.",
+                "Post Details Published: June 23, 2021 Category: Technical Tags javascript react Newsletter Subscribe to the Newsletter Comments Newsletter Donate a Coffee RSS Gatsby GitHub Netlify"
+            ]
+        }
+    }
+]
