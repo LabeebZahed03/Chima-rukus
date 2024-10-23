@@ -78,5 +78,5 @@ class Crawler:
         return raw_data
 
     def __del__(self):
-        # Clean up the driver when the crawler is destroyed
+        # Clean up driver when the crawler is destroyed
         self.driver.quit()

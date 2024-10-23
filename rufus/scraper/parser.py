@@ -33,13 +33,13 @@ class Parser:
         headings = [h.get_text(strip=True) for h in soup.find_all(['h1', 'h2', 'h3'])]
         last_updated = ''
 
-        # Attempt to find last updated date in meta tags
+        # last updated date in meta tags
         for meta in soup.find_all('meta'):
             if meta.get('name', '').lower() in ['last-modified', 'last_updated', 'date']:
                 last_updated = meta.get('content', '')
                 break
 
-        # Fallback to current date if not found
+        # current date if not found
         if not last_updated:
             last_updated = datetime.now().isoformat()
 
