@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='rufus-ai',
-    version='0.1.2',
+    version='0.1.3',
     author='Labeeb Zahed',
     author_email='labeebzahed@gmail.com',
     description='Rufus: Intelligent Web Data Preparation for RAG Agents',
