@@ -110,6 +110,7 @@ To integrate Rufus into a Retrieval-Augmented Generation (RAG) pipeline:
    - Feed the processed data into a vector store or database (e.g., Elasticsearch, Pinecone) to enable efficient retrieval.
 4. **Retrieval:**
    - When a query is made, retrieve relevant documents from the vector store based on semantic similarity.
+   - Rank retrieved document if required, in terms of relevance.
 5. **Generation:**
    - Use a language model (e.g., GPT-3, GPT-4) to generate responses that are augmented with the retrieved documents.
 6. **Feedback Loop:**
