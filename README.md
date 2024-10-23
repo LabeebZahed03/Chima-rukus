@@ -16,7 +16,7 @@ Rufus is an AI-powered tool designed to intelligently crawl websites and extract
 - [Contributing](#contributing)
 - [License](#license)
 
-## API UPDATE (v0.1.2) : Chunks data, returns output in downloadable json format with metadata to aid in implementing into RAG pipeline!
+## API UPDATE (v0.1.3) : Chunks data, returns output in downloadable json format with metadata to aid in implementing into RAG pipeline!
 
 
 ## Features
