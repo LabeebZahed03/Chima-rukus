@@ -1,14 +1,23 @@
 from rufus.client import RufusClient
-import json
+import os
 
-client = RufusClient()
+# api key -(currently any non-empty string)
+key = os.getenv('RUFUS_API_KEY', 'your_default_api_key')
+
+# Initialize Rufus client
+client = RufusClient(api_key=key)
+
 url = 'https://www.taniarascia.com'
-instructions = 'Find tutorials and articles about web development, JavaScript, and React.'
+instructions = "extract articles about javascript, react, web-development"
 
-data = client.scrape(url, instructions, depth=2)
+# Scrape the website
+documents = client.scrape(url, instructions)
 
-# Save data to JSON file
-with open('taniarascia_data.json', 'w') as f:
-    json.dump(data, f, indent=4)
+# Output the results
+output_folder = 'outputs'
+file_path = os.path.join(output_folder, 'testwebsite.json')
+import json
+with open(file_path, 'w') as f:
+    json.dump(documents, f, indent=4)
 
-print("Data saved to taniarascia_data.json")
+print(f"Data saved to {file_path}")
