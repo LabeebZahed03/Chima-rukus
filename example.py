@@ -1,16 +1,8 @@
 from rufus.client import RufusClient
 
-# Initialize the client (API key is optional for now)
-client = RufusClient(api_key='your_api_key')
-
-# Define instructions
-instructions = "Extract the title of the page."
-
-# URL to scrape
+client = RufusClient()
+instructions = "We're making a chatbot for blogs and projects."
 url = "https://www.taniarascia.com"
-
-# Perform scraping
-data = client.scrape(url, instructions)
-
-# Output the results
-print(data)
+data = client.scrape(url, instructions, depth=2)
+client.save_to_file(data, 'website_data.json')
+print("Data saved to sfgov_data.json")
