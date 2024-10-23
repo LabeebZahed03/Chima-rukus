@@ -30,7 +30,7 @@ Rufus is an AI-powered tool designed to intelligently crawl websites and extract
 - Python 3.7 or higher
 - Google Chrome (for Selenium WebDriver)
 
-### Install Rufus (API ISSUE - NEEDS FIX)
+### Install Rufus 
 ```bash
 pip install rufus-ai
 ```
