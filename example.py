@@ -1,8 +1,9 @@
 from rufus.client import RufusClient
 import os
+import json
 
-# api key -(currently any non-empty string)
-key = os.getenv('RUFUS_API_KEY', 'your_default_api_key')
+# Set the API key (currently any non-empty string)
+key = os.getenv('RUFUS_API_KEY', 'default_key')
 
 # Initialize Rufus client
 client = RufusClient(api_key=key)
@@ -15,8 +16,9 @@ documents = client.scrape(url, instructions)
 
 # Output the results
 output_folder = 'outputs'
+os.makedirs(output_folder, exist_ok=True)
 file_path = os.path.join(output_folder, 'testwebsite.json')
-import json
+
 with open(file_path, 'w') as f:
     json.dump(documents, f, indent=4)
 
