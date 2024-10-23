@@ -27,7 +27,7 @@ Rufus is an AI-powered tool designed to intelligently crawl websites and extract
 - Python 3.7 or higher
 - Google Chrome (for Selenium WebDriver)
 
-### Install Rufus
+### Install Rufus (API ISSUE - NEEDS FIX)
 ```bash
 pip install rufus-ai
 ```
@@ -52,19 +52,29 @@ client = RufusClient(api_key=key)
 
 ### Scraping a Website
 ```python
-# Define the URL and instructions
-url = 'https://example.com'
-instructions = "Find information about product features and customer FAQs."
+from rufus.client import RufusClient
+import os
+
+# api key -(currently any non-empty string)
+key = os.getenv('RUFUS_API_KEY', 'default_key')
+
+# Initialize Rufus client
+client = RufusClient(api_key=key)
+
+url = 'https://www.taniarascia.com'
+instructions = "extract articles about javascript, react, web-development"
 
 # Scrape the website
 documents = client.scrape(url, instructions)
 
 # Output the results
+output_folder = 'outputs'
+file_path = os.path.join(output_folder, 'testwebsite.json')
 import json
-with open('data.json', 'w') as f:
+with open(file_path, 'w') as f:
     json.dump(documents, f, indent=4)
 
-print("Data saved to data.json")
+print(f"Data saved to {file_path}")
 ```
 
 ## How Rufus Works
@@ -112,9 +122,6 @@ To integrate Rufus into a Retrieval-Augmented Generation (RAG) pipeline:
   - Requires `en_core_web_lg` language model
 - Selenium: Web browser automation
 - webdriver-manager: Manages WebDriver binaries
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
 This project is licensed under the MIT License.
