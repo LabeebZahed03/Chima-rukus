@@ -105,7 +105,7 @@ To integrate Rufus into a Retrieval-Augmented Generation (RAG) pipeline:
 1. **Data Collection:**
    - Use Rufus to scrape and parse relevant documents from target websites based on specific instructions.
 2. **Data Preprocessing:**
-   - Clean and preprocess the extracted data as required by your application (e.g., remove duplicates, handle special characters).
+   - Rufus chunks the data before outputting it, so it aids retrieval by the RAG model
 3. **Indexing:**
    - Feed the processed data into a vector store or database (e.g., Elasticsearch, Pinecone) to enable efficient retrieval.
 4. **Retrieval:**
